@@ -1,0 +1,6 @@
+-keep class com.viddown.app.** { *; }
+-keep class com.arthenica.ffmpegkit.** { *; }
+-keepattributes *Annotation*
+-keepattributes Signature
+-dontwarn org.slf4j.**
+-dontwarn org.jetbrains.annotations.**
